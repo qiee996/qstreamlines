@@ -20,6 +20,10 @@ Export images to /tmp for example dataset animation.
 
     $ ./qstreamlines --output /tmp/swirl. examples/swirl.json
 
+## Building
+
+	$ cd src && make app
+
 ## License
 qstreamlines Copyright (C) 2016 Remik Ziemlinski GPLv3
 

@@ -13,5 +13,5 @@ clean:
 	-rm -rf build
 
 run:
-	./build/$(APP) ../examples/vortex.json
+	./build/$(APP) ../examples/swirl.json
 
