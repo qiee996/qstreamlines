@@ -1,9 +1,9 @@
 {
     "background": {
         "color": [.3, .3, .3, 0],
-        "image": "/home/rsz/projects/qstreamlines/examples/rgba_image.png"
+        "image": "/home/rsz/projects/qstreamlines/dev/examples/rgba_image.png"
     },
-    "color": "/home/rsz/projects/qstreamlines/examples/colorfade.lut.json",
+    "color": "/home/rsz/projects/qstreamlines/dev/examples/colorfade.lut.json",
     "framesPerSecond": 10,
     "screenWidthHeight": [940, 400],
     "glyph": {
@@ -22,14 +22,14 @@
         "size": 0.01,
         "steps": 1,
         "speed": 1.0,
-        "speedlut": "/home/rsz/projects/qstreamlines/examples/speed.lut.json"
+        "speedlut": "/home/rsz/projects/qstreamlines/dev/examples/speed.lut.json"
     },
     "u": {
-        "file": "/home/rsz/projects/qstreamlines/examples/swirl.u.txt",
+        "file": "/home/rsz/projects/qstreamlines/dev/examples/swirl.u.txt",
         "validMinMax": [-10, 10]
     },
     "v": {
-        "file": "/home/rsz/projects/qstreamlines/examples/swirl.v.txt",
+        "file": "/home/rsz/projects/qstreamlines/dev/examples/swirl.v.txt",
         "validMinMax": [-10, 10]
     }
 }

@@ -7,7 +7,7 @@ help:
 	@echo make [ clean app run ]
 
 app:
-	mkdir -p build && cd build && qmake ../$(PRO) -r -spec linux-g++ CONFIG+=release
+	mkdir -p build && cd build && qmake ../$(PRO) -r -spec linux-g++ CONFIG+=release && make -j4
 
 clean:
 	-rm -rf build
